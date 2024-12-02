@@ -26,7 +26,8 @@ jobs:
         GITLAB_TOKEN: ${{ secrets.TARGET_TOKEN }}
       run: |
         # Add GitLab as a remote
-        git remote add gitlab https://oauth2:${{ secrets.TARGET_TOKEN }}@gitlab.com/sync-test.git
+        git remote add gitlab https://oauth2:${{ secrets.TARGET_TOKEN }}@gitlab.com/Madhvik-Bhalani/sync-test.git
+
 
         
         # Push to the `dev` branch in GitLab
